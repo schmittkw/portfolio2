@@ -683,7 +683,16 @@
     top: 0px;
   }
   .python{
-    border-radius: 5px;
+    border-radius: 7px;
+    background: green;
+  }
+  .ruby{
+    border-radius: 7px;
+    background:red;
+  }
+  .javascript{
+    border-radius: 7px;
+    background: yellow;
   }
   img{
     width: 450px;
