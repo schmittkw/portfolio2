@@ -1,0 +1,32 @@
+@keyframes backgroundchange {
+    10% {
+      background: var(--red-color);
+    }
+    20% {
+      background: var(--orange-color);
+    }
+    30% {
+      background: var(--yellow-color);
+    }
+    40% {
+      background: var(--green-color);
+    }
+    50% {
+      background: var(--mint-color);
+    }
+    60% {
+      background: var(--aqua-color);
+    }
+    70% {
+      background: var(--blue-color);
+    }
+    80% {
+      background: var(--purple-color);
+    }
+    90% {
+      background: var(--pink-color);
+    }
+    100% {
+      background: var(--red-color);
+    }
+  }

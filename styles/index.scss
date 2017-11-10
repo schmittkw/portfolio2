@@ -1,0 +1,115 @@
+@import 'variables';
+@import 'normalize';
+@import 'animated-heading';
+@import 'animated-links';
+
+html, body {
+  width: 100%;
+}
+
+body {
+  background: #f5f5f5;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+  background: var(--dark-grey-color);
+  color: #eee;
+}
+
+a {
+  color: var(--purple-color);
+}
+
+.wrap {
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2em 0;
+}
+
+h1, h2 {
+  font-family: 'Patua One', cursive;
+}
+
+h1 {
+  color: #eee;
+  font-size: 3rem;
+}
+
+.nav {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  
+  li {
+    display: inline-block;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.7rem;
+    color: var(--orange-color);
+    
+    span {
+      padding: 2px 6px;
+      border: 2px solid var(--aqua-color);
+    }
+    
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.4;
+}
+
+.emphasized {
+  color: var(--aqua-color);
+  font-size: 1.5rem;
+}
+
+.post-list {
+  margin: 0px;
+  padding: 0px;
+  line-height: 1.4;
+  font-size: 1.2rem;
+  list-style: none;
+  text-align: left;
+  li {
+    margin: 1em 0;
+  }
+  
+  a {
+    padding: 2px;
+    position: relative;
+    &:hover {
+      background: #EF609B;
+      color: #fff;
+      animation: backgroundchange 3s infinite alternate;
+    }
+  }
+}
+
+@media (max-width: 700px) { 
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+#canvas-1, #canvas-2 {
+  width: 500px;
+  height: 400px;
+  position: absolute;
+}
+
+#canvas-1 {
+  left: 0px;
+  top: 0px;
+}
+
+#canvas-2 {
+  right: 0px;
+  top: 0px;
+}

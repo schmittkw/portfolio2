@@ -1,0 +1,36 @@
+h1:hover, .nav li a:hover {
+    animation: colorchange 3s infinite alternate;      
+  }
+  
+  @keyframes colorchange {
+    10% {
+      color: var(--red-color);
+    }
+    20% {
+      color: var(--orange-color);
+    }
+    30% {
+      color: var(--yellow-color);
+    }
+    40% {
+      color: var(--green-color);
+    }
+    50% {
+      color: var(--mint-color);
+    }
+    60% {
+      color: var(--aqua-color);
+    }
+    70% {
+      color: var(--blue-color);
+    }
+    80% {
+      color: var(--purple-color);
+    }
+    90% {
+      color: var(--pink-color);
+    }
+    100% {
+      color: var(--red-color);
+    }
+  }
