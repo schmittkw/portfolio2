@@ -694,6 +694,14 @@
     border-radius: 7px;
     background: yellow;
   }
+  .family-dream{
+    border-radius: 7px;
+    background: rgb(61, 126, 201);
+  }
+  .code-and-create{
+    border-radius: 7px;
+    background: #FF7F50;
+  }
   img{
     width: 450px;
     height: 280px;
